@@ -35,4 +35,5 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.7' # minimum SDK with autolayout
   s.tvos.deployment_target = '9.0' # minimum SDK with autolayout
   s.requires_arc = true
+  s.static_framework = true
 end
